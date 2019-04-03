@@ -18,7 +18,7 @@ namespace WebAPIStandard.Controllers
         /// <remarks>To list all the persons in table in Remarks Section</remarks>
         public IHttpActionResult getAllPersons()
         {
-            using (TestEntities ctx = new TestEntities()) //chang
+            using (TestEntities ctx = new TestEntities()) //change from master
             {
                 var person = ctx.People.ToList();
                 if (person != null)
