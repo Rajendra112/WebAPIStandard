@@ -11,7 +11,7 @@ namespace WebAPIStandard.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            //Change done from master
+            //Change done from local
             return View();
         }
     }
