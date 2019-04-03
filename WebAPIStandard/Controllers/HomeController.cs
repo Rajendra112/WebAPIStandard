@@ -11,7 +11,7 @@ namespace WebAPIStandard.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            //Change done from MyNewBranch
+            //Change done from master
             return View();
         }
     }
